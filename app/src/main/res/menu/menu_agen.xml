@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_beranda"
+        android:title="Beranda"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/nav_target"
+        android:title="Target agen"
+        android:icon="@drawable/baseline_how_to_reg_24"/>
+
+    <item android:id="@+id/nav_namajamaah"
+        android:title="Nama Jamaah"
+        android:icon="@drawable/baseline_groups_24"/>
+
+    <item android:id="@+id/nav_datapribadi"
+        android:title="Data Pribadi"
+        android:icon="@drawable/ic_person"/>
+
+</menu>

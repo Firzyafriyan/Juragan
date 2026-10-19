@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailShopActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="12dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/btnKembali"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:layout_marginRight="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo1"
+                android:layout_gravity="left"
+                android:foregroundGravity="left"/>
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:layout_margin="10dp"
+               android:background="@drawable/pinkmotif"/>
+           <androidx.cardview.widget.CardView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="-100dp"
+               app:cardCornerRadius="12dp">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/kabah"/>
+           </androidx.cardview.widget.CardView>
+
+           <TextView
+               android:id="@+id/txt_nama_paket"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="nama paket umroh"
+               android:layout_marginHorizontal="20dp"
+               android:layout_marginTop="30dp"
+               android:fontFamily="@font/poppins_black"
+               android:textColor="@color/merah"
+               android:textSize="20sp"/>
+
+           <TextView
+               android:id="@+id/txt_harga_paket"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="harga paket umroh"
+               android:layout_marginHorizontal="20dp"
+               android:fontFamily="@font/poppins_black"
+               android:textColor="@color/merah"
+               android:textSize="20sp"/>
+           <TextView
+               android:id="@+id/txt_keberangkatan"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=" Keberangkatan"
+               android:drawableTint="@color/merah"
+               android:drawableLeft="@drawable/baseline_airplanemode_active_24"
+               android:layout_marginHorizontal="20dp"
+               android:fontFamily="@font/poppins_semibold"
+               android:textColor="@color/merah"
+               android:textSize="20sp"/>
+           <TextView
+               android:id="@+id/txt_lama_waktu"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=" Lama waktu"
+               android:drawableTint="@color/merah"
+               android:layout_marginHorizontal="20dp"
+               android:layout_marginBottom="20dp"
+               android:drawableLeft="@drawable/baseline_access_time_24"
+               android:fontFamily="@font/poppins_semibold"
+               android:textColor="@color/merah"
+               android:textSize="20sp"/>
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="20dp"
+               android:background="@drawable/transparent_bg"
+               app:cardCornerRadius="12dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:background="@drawable/transparent_bg"
+                   >
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Fasilitas"
+                       android:textStyle="italic"
+                       android:layout_marginHorizontal="20dp"
+                       android:fontFamily="@font/poppins_bold"
+                       android:textColor="@color/merah"
+                       android:textSize="20sp"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="20dp"
+                       android:drawableLeft="@drawable/baseline_airplane_ticket_24"
+                       android:drawableTint="@color/redbox"
+                       android:fontFamily="@font/poppins_semibold"
+                       android:text=" Maskapai Batik Air"
+                       android:textColor="@color/merah"
+                       android:textSize="18sp" />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text=" Hotel Al Ansar Golden Tulip"
+                       android:layout_marginHorizontal="20dp"
+                       android:drawableLeft="@drawable/baseline_location_city_24"
+                       android:drawableTint="@color/redbox"
+                       android:fontFamily="@font/poppins_semibold"
+                       android:textColor="@color/merah"
+                       android:textSize="18sp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Transport"
+                       android:layout_marginRight="20dp"
+                       android:layout_marginLeft="40dp"
+                       android:drawableLeft="@drawable/baseline_directions_bus_24"
+                       android:drawableTint="@color/redbox"
+                       android:fontFamily="@font/poppins_semibold"
+                       android:textColor="@color/merah"
+                       android:textSize="20sp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="- Bonluck"
+                       android:layout_marginRight="20dp"
+                       android:layout_marginLeft="60dp"
+                       android:fontFamily="@font/poppins_medium"
+                       android:textColor="@color/merah"
+                       android:textSize="18sp"/>
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="- Al Haramain"
+                       android:layout_marginRight="20dp"
+                       android:layout_marginLeft="60dp"
+                       android:fontFamily="@font/poppins_medium"
+                       android:textColor="@color/merah"
+                       android:textSize="18sp"/>
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <Button
+               android:id="@+id/btn_pesan_sekarang"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Pesan Sekarang"
+               android:layout_marginHorizontal="20dp"
+               android:layout_marginTop="30dp"
+               android:textColor="@color/merah"
+               android:backgroundTint="@color/merah2"
+               android:elevation="12dp"
+               android:fontFamily="@font/poppins_semibold"
+               android:layout_marginBottom="20dp"/>
+
+
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

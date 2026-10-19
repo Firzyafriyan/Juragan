@@ -1,0 +1,16 @@
+package com.cadenza.bottomnavigation.Tanya;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.cadenza.bottomnavigation.R;
+
+public class CaraActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_cara);
+    }
+}

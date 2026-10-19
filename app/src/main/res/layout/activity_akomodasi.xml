@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtok"
+    tools:context=".Tanya.CaraActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/putihImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/putihpendek"
+            android:outlineSpotShadowColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="194dp"
+            android:background="@drawable/logo1" />
+
+        <ImageView
+            android:id="@+id/btnKmbl"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="85dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_black"
+            android:text="Jawaban yang anda cari"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/putihImageView"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/merah2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Bagaimana Kualitas Akomodasi selama perjalanan umroh?"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/putihImageView"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/merah2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Sebagai agen travel yang berkomitmen terhadap kenyamanan dan keamanan jamaah, kami memastikan bahwa akomodasi yang
+                    disediakan selama perjalanan umroh memenuhi standar kualitas dan kebutuhan yang diharapkan. Berikut adalah beberapa ciri khas dari akomodasi yang kami sediakan:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="1. Lokasi yang Strategis:
+                    Hotel-hotel yang dipilih berlokasi dekat dengan lokasi-lokasi ibadah utama di Tanah Suci seperti Masjidil Haram di Makkah dan Masjid Nabawi di Madinah.
+                    Akses yang mudah dan cepat untuk memudahkan jamaah dalam menjalankan ibadah."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="2. Fasilitas Kamar Nyaman:
+                    Kamar-kamar hotel dilengkapi dengan fasilitas yang nyaman, termasuk kamar mandi pribadi, AC, televisi, fasilitas pembuat teh/kopi, dan area duduk.
+                    Kebersihan kamar dijaga dengan baik untuk memastikan kenyamanan selama menginap."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="3. Fasilitas Umum yang Memadai:
+Area umum hotel seperti lobi, restoran, dan tempat ibadah diatur dengan rapi dan bersih.
+Ketersediaan lift, area parkir, dan fasilitas lainnya untuk memenuhi kebutuhan jamaah."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="5. Sertakan Dokumen Pendukung"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="6. Persiapkan dokumen-dokumen yang diperlukan, seperti salinan paspor, pas foto, dan dokumen lain sesuai permintaan agen. Pastikan dokumen yang Anda berikan sesuai dengan persyaratan agen dan otoritas terkait."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="7. Verifikasi dan Konfirmasi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="8. Setelah mengirimkan formulir pendaftaran dan dokumen, agen akan melakukan verifikasi. Pastikan untuk memastikan bahwa informasi yang Anda berikan akurat. Agen kemudian akan memberikan konfirmasi pendaftaran."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="9. Pembayaran Awal atau Pelunasan"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="10. Agen biasanya meminta pembayaran awal atau pelunasan sesuai dengan kebijakan pembayaran yang ditetapkan. Pastikan untuk mengetahui detail biaya dan metode pembayaran yang diterima."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

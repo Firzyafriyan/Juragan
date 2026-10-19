@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BottomNavigation"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".TestimoniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.JadwalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.PengembalianActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.HubungiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.PersiapanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.AkomodasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.TotalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.CaraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tanya.TanyaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Panduan.GaleriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PembayaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PesanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Panduan.DoaMasukMasjidilActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_masuk_masjidil"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.DoaMemasukiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_memasuki"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.TalbiyahActivity"
+            android:exported="false"
+            android:label="@string/title_activity_talbiyah"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.DoaSetelahMemakaiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_setelah_memakai"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.NiatUmrohActivity"
+            android:exported="false"
+            android:label="@string/title_activity_niat_umroh"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.HukumIbadahUmrohActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hukum_ibadah_umroh"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.DoaKembaliKerumahActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_kembali_kerumah"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.DoaTahallulActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_tahallul"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.DoaSaiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_sai"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.TawafIfadahActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tawaf_ifadah"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.MelemparJumrohActivity"
+            android:exported="false"
+            android:label="@string/title_activity_melempar_jumroh"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.DoaArafahActivity"
+            android:exported="false"
+            android:label="@string/title_activity_doa_arafah"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.NiatIhramActivity"
+            android:exported="false"
+            android:label="@string/title_activity_niat_ihram"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.HukumIbadahHajiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hukum_ibadah_haji"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".Panduan.panduanActivity"
+            android:exported="false"
+            android:label="@string/title_activity_panduan"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".AGEN.LupaPwAgenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lupa_pw_agen"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".LupaNIKActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lupa_nikactivity"
+            android:theme="@style/Theme.BottomNavigation" />
+        <activity
+            android:name=".AGEN.LogAgenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AGEN.HomeAgenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash1Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogJamaahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegJamaahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JadwalSholat"
+            android:exported="false" />
+    </application>
+
+</manifest>

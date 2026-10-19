@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Panduan.TalbiyahActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/btnKembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Talbiyah"
+            android:textSize="18dp"
+            android:textColor="@color/merah"
+            android:fontFamily="@font/poppins_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="120dp"
+            android:text="لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ لَا شَرِيكَ لَكََِ"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:text="Labbaikallahumma labbaik, labbaika laa syarika laka labbaik. Innal hamda wan ni'mata laka wal mulk laa syarika laka."
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="290dp"
+            android:text="Artinya: Aku datang, ya Allah, aku datang. Aku datang, tiada sekutu bagi-Mu, aku datang. Sungguh, segala puji, nikmat, dan kekuasaan adalah bagi-Mu. Tidak ada sekutu bagi-Mu."
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

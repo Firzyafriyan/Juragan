@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Panduan.DoaSaiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/btnKembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Doa saat Memasuki Kota Makkah"
+            android:textSize="18dp"
+            android:textColor="@color/merah"
+            android:fontFamily="@font/poppins_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="120dp"
+            android:text="اللَّهُمَّ هَذَا حَرَمُكَ وَأَمَانُكَ فَحَرِّمْ لَحْمِي وَدَمِي وَشَعْرِي وَبَشَرِي عَلَى النَّارِ وَآمِنِّي مِنْ عَذَابِكَ يَوْمَ تَبْعَثُ عِبَادَكَ وَاجْعَلْنِي مِنْ أَوْلِيَائِكَََِ"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:text="Allahumma hadzaa haramuka wa amanuka faharrim lahmii wa damii wa sya'rii wa basyarii 'ala an-naar, wa aaminni min 'adzabika yaum tab'atsu 'ibadak wa j'alnii min awliya'ika."
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="340dp"
+            android:text= "Artinya: Ya Allah, kota ini adalah Tanah Haram-Mu dan tempat aman-Mu, maka haramkanlah daging, darah, rambut, dan kulitku dari api neraka, dan selamatkanlah diriku dari siksa-Mu pada hari Engkau membangkitkan kembali hamba-hamba-Mu, dan jadikanlah aku termasuk orang-orang yang dekat dengan-Mu."
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

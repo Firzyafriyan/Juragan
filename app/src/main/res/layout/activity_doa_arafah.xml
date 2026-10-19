@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Panduan.DoaArafahActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/btnKembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Doa di Arafah"
+            android:textSize="18dp"
+            android:textColor="@color/merah"
+            android:fontFamily="@font/poppins_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:text="اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ النَّارِ وَعَذَابِ الْقَبْرِ وَفِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَفِتْنَةِ الْمَسِيحِ الدَّجَّالِ"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:text="Allahumma inni a'udhu bika min 'adhabi al-nar wa 'adhabi al-qabr, wa fitnati al-mahya wa al-mamat, wa fitnati al-masih al-dajjal."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="280dp"
+            android:text="Artinya: Ya Allah, aku berlindung kepada-Mu dari siksa api neraka, siksa kubur, fitnah kehidupan dan mati, serta fitnah al-Masih al-Dajjal."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

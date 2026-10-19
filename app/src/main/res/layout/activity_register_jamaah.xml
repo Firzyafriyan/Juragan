@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".RegJamaahActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:fontFamily="@font/poppins_medium"
+            android:paddingBottom="250dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register Jamaah"
+                android:layout_marginTop="60dp"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/merah"
+                android:fontFamily="@font/poppins_extrabold">
+            </TextView>
+
+            <EditText
+                android:id="@+id/etNamalengkap"
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Nama Lengkap"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="8dp" />
+
+
+            <EditText
+                android:id="@+id/etNik"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:hint="Masukkan NIK anda"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="8dp" />
+            <EditText
+                android:id="@+id/etNmaBapak"
+                android:layout_gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Masukkan Nama Ayah"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="8dp" />
+
+
+            <EditText
+                android:id="@+id/etNo_hp"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="phone"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_phone_24"
+                android:drawablePadding="8dp"
+                android:hint="No. Handphone"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/etTgllahir"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:inputType="date"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_edit_calendar_24"
+                android:drawablePadding="8dp"
+                android:hint="Masukkan Tanggal Lahir"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppins_black"
+                android:text="Pilihi Agen 1. Fahri | 2. Gigi"/>
+
+            <Spinner
+                android:id="@+id/etIdAgen"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_people_alt_24"
+                android:drawablePadding="8dp">
+
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppins_black"
+                android:text="Pilih Jenis Kelamin"/>
+
+            <Spinner
+                android:id="@+id/etGender"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_people_alt_24"
+                android:drawablePadding="8dp">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/etAlamat"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:drawableLeft="@drawable/baseline_maps_home_work_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Alamat"
+                android:padding="8dp" />
+
+
+            <Button
+                android:id="@+id/btnRegJamaah"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/merah"
+                android:text="Daftar"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="20sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

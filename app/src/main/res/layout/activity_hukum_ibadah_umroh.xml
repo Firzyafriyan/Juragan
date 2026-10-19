@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Panduan.HukumIbadahUmrohActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/btnKembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Hukum Ibadah Umroh"
+            android:textSize="18dp"
+            android:textColor="@color/merah"
+            android:fontFamily="@font/poppins_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"
+            android:text="1. Sunah Mu'akkadah: Umroh termasuk dalam kategori sunah mu'akkadah, yaitu sunah yang sangat dianjurkan untuk dilaksanakan oleh setiap Muslim. Meskipun bukan kewajiban, umroh tetap memberikan pahala yang besar."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="2. Bisa Dilakukan Kapan Saja: Umroh bisa dilakukan kapan saja dalam setahun, tidak terikat pada waktu-waktu tertentu seperti haji. Ini memberikan fleksibilitas kepada umat Islam untuk melaksanakannya sesuai dengan kemampuan dan kesempatan yang ada."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="290dp"
+            android:text="3. Dilakukan dengan Ihram: Seperti haji, umroh juga melibatkan penggunaan pakaian ihram, yang menandakan niat untuk melaksanakan ibadah tersebut."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="355dp"
+            android:text="4. Tata Cara Umroh: Umroh melibatkan beberapa ritual, termasuk thawaf (mengelilingi Ka'bah), sa'i (berlari-lari kecil antara Shafa dan Marwah), dan tahallul (melepas ihram)."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="430dp"
+            android:text="5. Umroh Tidak Menggantikan Haji: Umroh tidak dapat menggantikan haji. Haji tetap merupakan rukun Islam yang wajib, sementara umroh adalah ibadah yang sangat dianjurkan namun tidak wajib."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="530dp"
+            android:text="Pelaksanaan Ibadah Umroh"
+            android:textSize="18dp"
+            android:textColor="@color/merah"
+            android:fontFamily="@font/poppins_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="565dp"
+            android:text="1. Pemilihan Travel Umroh/Haji: Memilih agen perjalanan yang terpercaya dan memiliki izin resmi untuk melaksanakan ibadah haji dan umroh."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="620dp"
+            android:text="2. Perencanaan dan Persiapan: Persiapan yang matang termasuk perencanaan perjalanan, pengurusan dokumen, dan persiapan mental serta fisik."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="680dp"
+            android:text="3. Memahami Tata Cara dan Ritus: Mengetahui dengan baik tata cara pelaksanaan haji dan umroh sesuai dengan ajaran Islam."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="740dp"
+            android:text="4. Kebersihan dan Perilaku Baik: Memperhatikan kebersihan diri dan pakaian serta menunjukkan perilaku baik selama menjalankan ibadah."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="800dp"
+            android:text="5. Menjaga Kesehatan: Menjaga kesehatan fisik dan mental selama perjalanan dan tinggal di Tanah Suci."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="840dp"
+            android:text="6. Bermusyawarah dan Tawafakur: Berkonsultasi dan berdiskusi dengan sesama jamaah haji/umroh serta melakukan tawafakur (refleksi) selama menjalankan ibadah."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+
+
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtok"
+    tools:context=".Tanya.PengembalianActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/putihImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/putihpendek"
+            android:outlineSpotShadowColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="194dp"
+            android:background="@drawable/logo1" />
+
+        <ImageView
+            android:id="@+id/btnKmbl"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="85dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_black"
+            android:text="Jawaban yang anda cari"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/putihImageView"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/merah2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Bagaimana prosedur pengembalian dana jika terjadi pembatalan??"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/putihImageView"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/merah2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Prosedur pengembalian dana akan dijelaskan dengan detail pada kontrak pendaftaran. Umumnya, terdapat aturan pembatalan dan pengembalian dana yang berlaku, dan prosesnya akan dilakukan sesuai dengan ketentuan yang telah disepakati."/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

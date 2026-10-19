@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merah_pink"
+    tools:context=".ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/putihpendek"
+            />
+
+        <RelativeLayout
+            android:id="@+id/scrollH_type"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:scrollbars="none">
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/putihpendek"
+            />
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="250dp"
+            android:rotation="180"
+            android:background="@drawable/putihpendek"
+            />
+        <TextView
+            android:id="@+id/txtNik"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="3516101802040001"
+            android:layout_marginTop="300dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Fajar Dwi Firmansyah"
+            android:layout_marginTop="320dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_coners"
+            android:src="@drawable/baseline_person_pin_24"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/baseline_edit_note_24" />
+
+        <TextView
+            android:id="@+id/btnEdit"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Edit Profil"
+            android:layout_marginTop="400dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/baseline_call_end_24" />
+
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Hubungi Kami"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/btnLogout"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/baseline_login_16" />
+
+        <TextView
+            android:id="@+id/txtLogout"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/merah"
+            android:text="Logout"
+            android:layout_marginTop="500dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

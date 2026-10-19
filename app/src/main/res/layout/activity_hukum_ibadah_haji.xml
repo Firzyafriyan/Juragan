@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/btnKembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Hukum Ibadah Haji:"
+            android:textSize="18dp"
+            android:textColor="@color/merah"
+            android:fontFamily="@font/poppins_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"
+            android:text="1. Wajib bagi yang mampu: Haji adalah salah satu rukun Islam yang wajib dilaksanakan oleh setiap Muslim yang mampu secara fisik dan finansial untuk melaksanakannya. Keterampilan fisik meliputi kemampuan untuk melakukan perjalanan dan melakukan ibadah-ibadah haji."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:text="2. Ketentuan Keuangan: Haji memerlukan keuangan yang mencukupi, dan seseorang harus memiliki kecukupan finansial untuk biaya perjalanan dan tinggal di Tanah Suci, serta menyokong keluarga yang ditinggalkan selama perjalanan."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:text="3. Satu Kali Seumur Hidup: Haji hanya wajib dilaksanakan sekali seumur hidup, kecuali bagi mereka yang mampu dan ingin melaksanakannya lebih dari sekali."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="355dp"
+            android:text="4. Melaksanakan dengan Tertib: Pelaksanaan haji harus dilakukan dengan tertib sesuai dengan tata cara dan syarat-syarat yang telah ditentukan. Ini mencakup memakai pakaian ihram, berada di tempat-tempat tertentu pada waktu-waktu tertentu, dan melaksanakan serangkaian ritual dengan ketentuan tertentu.."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="460dp"
+            android:text="5. Pahala dan Pengampunan Dosa: Haji yang diterima oleh Allah dikabulkan doanya, dan diampuni dosa-dosanya. Pahala haji yang mabrur sangat besar, dan seorang Muslim diharapkan kembali dengan hati yang lebih bersih dan bertaqwa."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="560dp"
+            android:text="Pelaksanaan Ibadah Haji:"
+            android:textSize="18dp"
+            android:textColor="@color/merah"
+            android:fontFamily="@font/poppins_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="595dp"
+            android:text="1. Pemilihan Travel Umroh/Haji: Memilih agen perjalanan yang terpercaya dan memiliki izin resmi untuk melaksanakan ibadah haji dan umroh."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="650dp"
+            android:text="2. Perencanaan dan Persiapan: Persiapan yang matang termasuk perencanaan perjalanan, pengurusan dokumen, dan persiapan mental serta fisik."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="705dp"
+            android:text="3. Memahami Tata Cara dan Ritus: Mengetahui dengan baik tata cara pelaksanaan haji dan umroh sesuai dengan ajaran Islam."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="760dp"
+            android:text="4. Kebersihan dan Perilaku Baik: Memperhatikan kebersihan diri dan pakaian serta menunjukkan perilaku baik selama menjalankan ibadah."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="820dp"
+            android:text="5. Menjaga Kesehatan: Menjaga kesehatan fisik dan mental selama perjalanan dan tinggal di Tanah Suci."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="850dp"
+            android:text="6. Bermusyawarah dan Tawafakur: Berkonsultasi dan berdiskusi dengan sesama jamaah haji/umroh serta melakukan tawafakur (refleksi) selama menjalankan ibadah."
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"/>
+
+
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

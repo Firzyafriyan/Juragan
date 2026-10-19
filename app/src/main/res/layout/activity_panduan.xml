@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/merahtok"
+    tools:context=".Panduan.panduanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/putihImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/putihpendek"
+            android:outlineSpotShadowColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="194dp"
+            android:background="@drawable/logo1" />
+
+        <ImageView
+            android:id="@+id/btnKmbl"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="90dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppins_black"
+            android:text="Panduan Tata Cara Haji dan Umroh"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/putihImageView"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/merah2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tata cara Haji"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_black"/>
+                <Button
+                    android:id="@+id/btnHukum"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Hukum dan Pelaksanaan Ibadah Haji"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnIhram"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Niat Ihram"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnArafah"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa di Arafah"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnJumrah"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Melempar Jumrah"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnTawaf"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Tawaf Ifadah"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnSai"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Sa'i"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnTahallul"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Tahallul (Melepas Ihram)"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnKembaliRmh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Kembali ke Rumah"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tata cara Umroh"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_black"
+                    android:layout_marginTop="20dp"/>
+                <Button
+                    android:id="@+id/btnHkmUmroh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Hukum dan Pelaksanaan Ibadah Umroh"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnUmroh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Niat Umroh"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnStlhMemakai"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Setelah Memakai Pakaian Ihram"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnTalbiayah"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Talbiyah"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnMekkah"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa saat Memasuki Kota Makkah"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+                <Button
+                    android:id="@+id/btnMasjidil"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Doa Masuk ke Masjidil Haram"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    app:cornerRadius="10dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
